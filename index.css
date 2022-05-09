@@ -1,0 +1,72 @@
+/* Imported fonts - lato, poppins et roboto */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Resetting the browser to default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: hsla(243, 17%, 77%, 0.514);
+}
+
+.heading {
+    margin: 10px 0;
+}
+
+/* Search box section */
+.search_section {
+    background-color: #6461a0;
+    padding: 10px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+}
+
+.user_list_section {
+    margin-top: 20px; 
+
+}
+
+li {
+    list-style: none;
+    border: 1px solid #DDDDDD;
+    margin-top: -1px; /* Prevent double border */
+    background-color: #f6f6f6;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+li:hover {
+    background-color: #EEEEEE;
+}
+
+/* Pill button or username */
+.username {
+    background-color: #6461a0;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+
+/* Media query for large screens */
+@media (min-width: 1000px) {
+    body {
+        width: 50%;
+    }
+    li {
+        font-size: 14px;
+    }
+}
